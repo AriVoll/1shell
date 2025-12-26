@@ -16,7 +16,7 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
       with:
-        repository: Alesya669/shell
+        repository: AriVoll/1shell
         # Если репозиторий приватный, добавьте токен:
         # token: ${{ secrets.PAT_TOKEN }}
 
@@ -58,4 +58,5 @@ jobs:
       with:
         name: kubsh-package
         path: kubsh.deb
+
         retention-days: 30
